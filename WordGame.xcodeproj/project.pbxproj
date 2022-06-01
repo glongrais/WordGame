@@ -14,6 +14,8 @@
 		3F8B35A62847BA6E003C0AD5 /* WordGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35A52847BA6E003C0AD5 /* WordGameTests.swift */; };
 		3F8B35B02847BA6E003C0AD5 /* WordGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35AF2847BA6E003C0AD5 /* WordGameUITests.swift */; };
 		3F8B35B22847BA6E003C0AD5 /* WordGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35B12847BA6E003C0AD5 /* WordGameUITestsLaunchTests.swift */; };
+		3F8B35BF2847BAF8003C0AD5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B35BE2847BAF8003C0AD5 /* README.md */; };
+		3F8B35C12847BB19003C0AD5 /* LetterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35C02847BB19003C0AD5 /* LetterBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3F8B35AB2847BA6E003C0AD5 /* WordGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8B35AF2847BA6E003C0AD5 /* WordGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameUITests.swift; sourceTree = "<group>"; };
 		3F8B35B12847BA6E003C0AD5 /* WordGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F8B35BE2847BAF8003C0AD5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3F8B35C02847BB19003C0AD5 /* LetterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		3F8B35882847BA6D003C0AD5 = {
 			isa = PBXGroup;
 			children = (
+				3F8B35BE2847BAF8003C0AD5 /* README.md */,
 				3F8B35932847BA6D003C0AD5 /* WordGame */,
 				3F8B35A42847BA6E003C0AD5 /* WordGameTests */,
 				3F8B35AE2847BA6E003C0AD5 /* WordGameUITests */,
@@ -96,6 +101,7 @@
 			children = (
 				3F8B35942847BA6D003C0AD5 /* WordGameApp.swift */,
 				3F8B35962847BA6D003C0AD5 /* ContentView.swift */,
+				3F8B35C02847BB19003C0AD5 /* LetterBox.swift */,
 				3F8B35982847BA6E003C0AD5 /* Assets.xcassets */,
 				3F8B359A2847BA6E003C0AD5 /* Preview Content */,
 			);
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F8B35BF2847BAF8003C0AD5 /* README.md in Resources */,
 				3F8B359C2847BA6E003C0AD5 /* Preview Assets.xcassets in Resources */,
 				3F8B35992847BA6E003C0AD5 /* Assets.xcassets in Resources */,
 			);
@@ -259,6 +266,7 @@
 			files = (
 				3F8B35972847BA6D003C0AD5 /* ContentView.swift in Sources */,
 				3F8B35952847BA6D003C0AD5 /* WordGameApp.swift in Sources */,
+				3F8B35C12847BB19003C0AD5 /* LetterBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
