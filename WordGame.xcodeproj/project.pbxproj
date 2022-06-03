@@ -16,6 +16,8 @@
 		3F8B35B22847BA6E003C0AD5 /* WordGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35B12847BA6E003C0AD5 /* WordGameUITestsLaunchTests.swift */; };
 		3F8B35BF2847BAF8003C0AD5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B35BE2847BAF8003C0AD5 /* README.md */; };
 		3F8B35C12847BB19003C0AD5 /* LetterBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35C02847BB19003C0AD5 /* LetterBox.swift */; };
+		3FA40866284A0F0F005F2C42 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40865284A0F0F005F2C42 /* Colors.swift */; };
+		3FA40868284A241E005F2C42 /* ShapeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA40867284A241E005F2C42 /* ShapeExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		3F8B35B12847BA6E003C0AD5 /* WordGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3F8B35BE2847BAF8003C0AD5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F8B35C02847BB19003C0AD5 /* LetterBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBox.swift; sourceTree = "<group>"; };
+		3FA40865284A0F0F005F2C42 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3FA40867284A241E005F2C42 /* ShapeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,9 @@
 			children = (
 				3F8B35942847BA6D003C0AD5 /* WordGameApp.swift */,
 				3F8B35962847BA6D003C0AD5 /* ContentView.swift */,
+				3FA40865284A0F0F005F2C42 /* Colors.swift */,
 				3F8B35C02847BB19003C0AD5 /* LetterBox.swift */,
+				3FA40867284A241E005F2C42 /* ShapeExtension.swift */,
 				3F8B35982847BA6E003C0AD5 /* Assets.xcassets */,
 				3F8B359A2847BA6E003C0AD5 /* Preview Content */,
 			);
@@ -265,8 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8B35972847BA6D003C0AD5 /* ContentView.swift in Sources */,
+				3FA40866284A0F0F005F2C42 /* Colors.swift in Sources */,
 				3F8B35952847BA6D003C0AD5 /* WordGameApp.swift in Sources */,
 				3F8B35C12847BB19003C0AD5 /* LetterBox.swift in Sources */,
+				3FA40868284A241E005F2C42 /* ShapeExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
