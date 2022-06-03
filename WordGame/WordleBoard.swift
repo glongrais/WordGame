@@ -18,14 +18,25 @@ struct WordleBoard: View {
         count: height
     )
     
+    
+    @State private var string: String = ""
+    @FocusState private var textFieldActive: Bool
+    
     static let width = 5
     static let height = 6
     
     var body: some View {
         VStack{
-            MatrixGrid(width: Self.width, height: Self.height, spacing: 8){
-                row, column in
-                LetterBox(letter: letters[row][column], evaluation: evaluations[row][column])
+            ZStack{
+                TextField("", text: $string).keyboardType(.asciiCapable).disableAutocorrection(true).focused($textFieldActive).opacity(0)
+                MatrixGrid(width: Self.width, height: Self.height, spacing: 8){
+                    row, column in
+                    LetterBox(letter: letters[row][column], evaluation: evaluations[row][column])
+                }
+                .frame(maxHeight: .infinity)
+                .onTapGesture {
+                    textFieldActive.toggle()
+                }
             }
             Button("New Game"){
                 

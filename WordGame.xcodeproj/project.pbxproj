@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3F8B35952847BA6D003C0AD5 /* WordGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35942847BA6D003C0AD5 /* WordGameApp.swift */; };
-		3F8B35972847BA6D003C0AD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35962847BA6D003C0AD5 /* ContentView.swift */; };
 		3F8B35992847BA6E003C0AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B35982847BA6E003C0AD5 /* Assets.xcassets */; };
 		3F8B359C2847BA6E003C0AD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B359B2847BA6E003C0AD5 /* Preview Assets.xcassets */; };
 		3F8B35A62847BA6E003C0AD5 /* WordGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B35A52847BA6E003C0AD5 /* WordGameTests.swift */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		3F8B35912847BA6D003C0AD5 /* WordGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8B35942847BA6D003C0AD5 /* WordGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordGameApp.swift; sourceTree = "<group>"; };
-		3F8B35962847BA6D003C0AD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F8B35982847BA6E003C0AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F8B359B2847BA6E003C0AD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F8B35A12847BA6E003C0AD5 /* WordGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,15 +105,14 @@
 		3F8B35932847BA6D003C0AD5 /* WordGame */ = {
 			isa = PBXGroup;
 			children = (
-				3F8B35942847BA6D003C0AD5 /* WordGameApp.swift */,
-				3F8B35962847BA6D003C0AD5 /* ContentView.swift */,
 				3FA40865284A0F0F005F2C42 /* Colors.swift */,
 				3F8B35C02847BB19003C0AD5 /* LetterBox.swift */,
+				3FA40869284A27BC005F2C42 /* MatrixGrid.swift */,
 				3FA40867284A241E005F2C42 /* ShapeExtension.swift */,
+				3F8B35942847BA6D003C0AD5 /* WordGameApp.swift */,
+				3FA4086B284A35F9005F2C42 /* WordleBoard.swift */,
 				3F8B35982847BA6E003C0AD5 /* Assets.xcassets */,
 				3F8B359A2847BA6E003C0AD5 /* Preview Content */,
-				3FA40869284A27BC005F2C42 /* MatrixGrid.swift */,
-				3FA4086B284A35F9005F2C42 /* WordleBoard.swift */,
 			);
 			path = WordGame;
 			sourceTree = "<group>";
@@ -276,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8B35972847BA6D003C0AD5 /* ContentView.swift in Sources */,
 				3FA40866284A0F0F005F2C42 /* Colors.swift in Sources */,
 				3FA4086C284A35F9005F2C42 /* WordleBoard.swift in Sources */,
 				3F8B35952847BA6D003C0AD5 /* WordGameApp.swift in Sources */,
